@@ -16,6 +16,10 @@ body {
   height: 260px;
 }
 
+.shadow-text {
+  text-shadow: 2px 2px 3px #8f8f8f;
+}
+
 .padding-mobile {
   padding-top: 5%;
 }
