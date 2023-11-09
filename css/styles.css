@@ -15,12 +15,15 @@ body {
   top: 0;
   background-color: #00000000;
   text-align: center;
-  box-shadow: 0 10px 17px 0px #202020;
 }
 
 .sizeLogo {
   width: 40px;
   height: 40px;
+}
+
+.shadow-header {
+  box-shadow: 0 10px 17px 0px #202020;
 }
 
 .navbar-toggler {
