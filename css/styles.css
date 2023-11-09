@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(5, 5, 5);
+  font-family: "Samsung Sans", sans-serif;
+}
+
+/* BEM */
+
+.img-size {
+  width: 100px;
+  height: 260px;
+}
+
+.padding-mobile {
+  padding-top: 5%;
+}
+
+.logoNetworks {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar {
+  width: auto;
+  background: rgb(19, 19, 19);
+  color: white;
+  height: 3.5rem;
+  font-size: larger;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-family: "Khula", sans-serif;
+  font-size: large;
+}
+
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.owl-pos-fix {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.owl-carousel.owl-loaded {
+  display: block;
+}
+
+.card {
+  border-radius: 0.5rem;
+  background-color: rgb(5, 5, 5);
+  height: 20rem;
+  width: auto;
+}
+
+.card2 {
+  border-radius: 0.3rem;
+  background-color: black;
+  height: 12.5rem;
+}
+
+.card-body {
+  height: auto;
+  width: auto;
+}
+
+.item {
+  color: white;
+}
+
+.flexIndexparts {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(5, 5, 5);
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.flexIndexpartschild {
+  flex-basis: auto;
+  background-color: rgb(8, 8, 8);
+  width: 20rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1px) and (max-width: 1310px) {
+  .item {
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: 0.8rem;
+    top: 0.6rem;
+  }
+
+  .img-size {
+    width: 180px;
+    height: 180px;
+  }
+
+  .khulaWhiteLeft {
+    color: white;
+    font-family: "Khula", sans-serif;
+    font-size: large;
+    width: auto;
+  }
+
+  .carousel-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid-Footer {
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(8, 8, 8);
+    height: auto;
+    position: relative;
+  }
+
+  .grid-Footerchild1 {
+    display: block;
+    width: auto;
+  }
+
+  .grid-Footerchild2 {
+    display: none;
+  }
+
+  .grid-Footerchild3 {
+    display: block;
+    width: auto;
+  }
+
+  .grid-Footerchild4 {
+    display: inline-block;
+    width: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-left: auto;
+  }
+
+  .navbar {
+    height: auto;
+  }
+  .khulaHeader {
+    display: none;
+  }
+  .dropdown-menu {
+    animation: slide-in-fwd-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      both;
+    width: 20rem;
+    height: 34.5rem;
+    border-radius: 0.7rem;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: auto;
+    width: 100px;
+    background-size: 100%, 100%;
+    bottom: 30rem;
+    position: absolute;
+  }
+
+  .form-control {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn2 {
+    display: none;
+  }
+  .card2 {
+    width: auto;
+  }
+
+  .flexOwl {
+    display: flex;
+    align-items: stretch;
+    padding: auto;
+  }
+
+  aside {
+    height: auto;
+  }
+}
+@media (min-width: 1310px) and (max-width: 1399px) {
+  .navbar-nav {
+    padding-left: 10rem;
+  }
+  .btn4 {
+    position: relative;
+    border: none;
+    outline: none;
+    margin-right: 8.5rem;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1804px) {
+  .flexIndexpartschild {
+    flex-basis: auto;
+    background-color: rgb(8, 8, 8);
+    width: 20rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+  }
+
+  .flexIndexparts {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(5, 5, 5);
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .margin-lefttable {
+    margin-left: 25rem;
+  }
+  .height-Founders {
+    margin-top: 2rem;
+  }
+}
