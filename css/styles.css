@@ -34,9 +34,6 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: black;
-}
-
-footer p {
   color: white;
   text-align: center;
   font-family: "Samsung Sans", sans-serif;
@@ -110,39 +107,49 @@ footer p {
   aside {
     height: auto;
   }
-}
-@media (min-width: 1310px) and (max-width: 1399px) {
-  .navbar-nav {
-    padding-left: 10rem;
-  }
-  .card {
-    display: flex;
-    justify-content: space-around;
-    height: 20rem;
-  }
-}
-@media (min-width: 1400px) and (max-width: 1804px) {
-  .flexIndexpartschild {
-    flex-basis: auto;
-    background-color: rgb(8, 8, 8);
-    width: 20rem;
-    border-radius: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    justify-content: space-between;
-  }
 
-  .flexIndexparts {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(5, 5, 5);
-    margin-left: 4rem;
-    margin-right: 4rem;
+  @media (min-width: 1310px) and (max-width: 1399px) {
+    .navbar-nav {
+      padding-left: 10rem;
+    }
+    .card {
+      display: flex;
+      justify-content: space-around;
+      height: 20rem;
+    }
+
+    footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
   }
-  .margin-lefttable {
-    margin-left: 25rem;
-  }
-  .height-Founders {
-    margin-top: 2rem;
+  @media (min-width: 1400px) and (max-width: 1804px) {
+    .flexIndexpartschild {
+      flex-basis: auto;
+      background-color: rgb(8, 8, 8);
+      width: 20rem;
+      border-radius: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      justify-content: space-between;
+    }
+
+    .flexIndexparts {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: rgb(5, 5, 5);
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .margin-lefttable {
+      margin-left: 25rem;
+    }
+    .height-Founders {
+      margin-top: 2rem;
+    }
   }
 }
