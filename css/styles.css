@@ -100,6 +100,10 @@ footer p {
     padding: auto;
   }
 
+  .padding-mobile2 {
+    padding-top: 5%;
+  }
+
   aside {
     height: auto;
   }
