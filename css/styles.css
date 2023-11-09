@@ -59,6 +59,7 @@ footer {
   border-radius: 0.5rem;
   background-color: transparent;
   height: 20rem;
+  box-shadow: 2px 3px 3px #525252;
   width: auto;
 }
 
